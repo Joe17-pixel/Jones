@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: honeydew;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgray;
+}
+
+site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(21, 72, 73);
+    padding: 15px 32px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a{
+    color: darkgreen;
+    text-decoration: none;
+
+}
